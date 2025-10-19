@@ -1,0 +1,7 @@
+birth_year = input('Birth year: ')
+print(type(birth_year))
+age = 2025 - int(birth_year)
+print(type(age))
+print(age)
+
+# age = 2025 - birth_year gives error 'int' - 'string'
